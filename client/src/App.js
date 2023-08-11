@@ -51,7 +51,7 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/locals" element={<Locals />} />
-            <Route path="*" element={<h1 Name="display-2">Wrong page!</h1>} />
+            {/* <Route path="*" element={<h1 Name="display-2">Wrong page!</h1>} /> */}
           </Routes>
         </>
       </Router>
