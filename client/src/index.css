@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fbf7ec;
+}
+
+.small {
+  font-weight: 300;
+  font-style: italic;
+}

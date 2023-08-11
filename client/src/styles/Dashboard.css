@@ -1,0 +1,13 @@
+#total-feed {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #d2d5b9;
+  border-radius: 9px;
+}
+
+#page-content-wrapper {
+  display: flex;
+  justify-content: center;
+}

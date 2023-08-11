@@ -1,0 +1,137 @@
+#icon,
+#logo,
+p,
+.input {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#logo,
+#mission,
+#us {
+  text-align: center;
+  width: 50%;
+}
+
+#us {
+  font-size: 17px;
+  margin-top: 40px;
+  color: #6d714d;
+  font-weight: bold;
+}
+
+.login-form {
+  padding-top: 60px;
+}
+
+#mission {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #542d24;
+}
+
+#logo {
+  padding-top: 25px;
+}
+#feed-container {
+  overflow: auto;
+}
+
+.jumbo {
+  height: 400px;
+  padding: 30px;
+}
+
+.input {
+  max-width: 500px;
+}
+
+.input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.login-btn {
+  margin: 10px;
+  background-color: #9c5b1f;
+  border-color: #9c5b1f;
+}
+
+.btn:hover {
+  background-color: #542d24;
+  border-color: #542d24;
+}
+
+.btn:disabled {
+  background-color: #9c5b1f;
+  border-color: #9c5b1f;
+}
+
+.arrow-icon {
+  font-size: 40px;
+  color: #6d714d;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.arrow-icon:hover {
+  color: #bda33a;
+}
+
+/* About Us section */
+
+.about-us {
+  height: 100vh;
+  background-color: #66330431;
+  text-align: center;
+  padding-top: 40px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.diagonal {
+  background-color: #fcf9ef;
+  height: 200px;
+  width: 100%;
+  content: "";
+  position: absolute;
+  -webkit-clip-path: polygon(100% 100%, 100% 0, 0 0);
+  clip-path: polygon(170% 100%, 100% 0, 0 0);
+}
+
+.about-us-description {
+  text-indent: 50px;
+  font-size: 18px;
+  display: block;
+}
+
+#container-us {
+  max-width: 750px;
+  max-height: 900px;
+  margin-top: 130px;
+  background-color: #fcf9ef;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+#about-us-title {
+  padding-bottom: 20px;
+}
+
+#mission-statement {
+  font-family: "Rubik Mono One", sans-serif;
+  font-weight: bold;
+}
+
+#mission-statement2 {
+  font-weight: lighter;
+  font-size: medium;
+}

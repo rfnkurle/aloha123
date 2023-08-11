@@ -1,0 +1,42 @@
+.signupForms {
+  margin-left: 10px;
+  margin-top: 150px;
+  margin-right: 725px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(229, 229, 229);
+}
+
+.signupButton {
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+#formLabel {
+    margin-left: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#signupPic {
+  background-size: 50% 100%;
+  width: 200%;
+}
+
+#profPic {
+    margin-top: 150px;
+    margin-right: 140px;
+    float: right;
+  width: 52.5%;
+  height: 100%;
+  /* z-index: -2; */
+}
+
+#big-form {
+  z-index: 100 !important;
+  position: relative;
+}
+
+#elusive-container {
+  padding-top: 55px;
+}
