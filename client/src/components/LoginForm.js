@@ -46,7 +46,7 @@ const LoginForm = () => {
 
     // user logged in => navigate to the dashboard
     if(Auth.loggedIn()) {
-      window.location.replace("/dashboard")
+      window.location.replace("dashboard")
     }
   
       
