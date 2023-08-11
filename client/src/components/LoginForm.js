@@ -45,9 +45,12 @@ const LoginForm = () => {
     }
 
     // user logged in => navigate to the dashboard
-    Auth.loggedIn()
-      ? window.location.replace("/dashboard")
-      : console.log("incorrect email or password!");
+    if(Auth.loggedIn()) {
+      window.location.replace("/dashboard")
+    }
+  
+      
+     
   };
 
   return (
